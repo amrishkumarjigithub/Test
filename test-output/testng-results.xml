@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NSWH_TEST002_EBS" duration-ms="134331" started-at="2019-03-13T05:15:38Z" finished-at="2019-03-13T05:17:52Z">
+    <groups>
+    </groups>
+    <test name="Test 002 EBS ESS DDT" duration-ms="134331" started-at="2019-03-13T05:15:38Z" finished-at="2019-03-13T05:17:52Z">
+      <class name="com.ebs.ess.testCases.TC_LoginTestDDT">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.ebs.ess.testCases.TC_LoginTestDDT@3c0ecd4b]" name="setUp" is-config="true" duration-ms="3021" started-at="2019-03-13T05:15:38Z" finished-at="2019-03-13T05:15:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginDDT02(java.lang.String, java.lang.String)[pri:0, instance:com.ebs.ess.testCases.TC_LoginTestDDT@3c0ecd4b]" name="loginDDT02" duration-ms="60332" started-at="2019-03-13T05:15:43Z" data-provider="LoginUserData02" finished-at="2019-03-13T05:16:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[73000007]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT02 -->
+        <test-method status="FAIL" signature="loginDDT02(java.lang.String, java.lang.String)[pri:0, instance:com.ebs.ess.testCases.TC_LoginTestDDT@3c0ecd4b]" name="loginDDT02" duration-ms="6541" started-at="2019-03-13T05:16:43Z" data-provider="LoginUserData02" finished-at="2019-03-13T05:16:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[730000089]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.ebs.ess.testCases.TC_LoginTestDDT.loginDDT02(TC_LoginTestDDT.java:121)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT02 -->
+        <test-method status="FAIL" signature="loginDDT02(java.lang.String, java.lang.String)[pri:0, instance:com.ebs.ess.testCases.TC_LoginTestDDT@3c0ecd4b]" name="loginDDT02" duration-ms="3087" started-at="2019-03-13T05:16:50Z" data-provider="LoginUserData02" finished-at="2019-03-13T05:16:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[730000089]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.ebs.ess.testCases.TC_LoginTestDDT.loginDDT02(TC_LoginTestDDT.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT02 -->
+        <test-method status="PASS" signature="loginDDT02(java.lang.String, java.lang.String)[pri:0, instance:com.ebs.ess.testCases.TC_LoginTestDDT@3c0ecd4b]" name="loginDDT02" duration-ms="58228" started-at="2019-03-13T05:16:53Z" data-provider="LoginUserData02" finished-at="2019-03-13T05:17:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[73000007]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT02 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebs.ess.testCases.TC_LoginTestDDT@3c0ecd4b]" name="tearDown" is-config="true" duration-ms="1639" started-at="2019-03-13T05:17:51Z" finished-at="2019-03-13T05:17:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebs.ess.testCases.TC_LoginTestDDT -->
+    </test> <!-- Test 002 EBS ESS DDT -->
+  </suite> <!-- NSWH_TEST002_EBS -->
+</testng-results>

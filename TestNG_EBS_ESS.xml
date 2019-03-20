@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NSWH_TEST002_EBS">
+
+	<listeners>
+		<listener class-name="com.ebs.ess.utilities.ReportingExtent" />
+	</listeners>
+
+
+	<test name="Test 002 EBS ESS DDT">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.ebs.ess.testCases.TC_LoginTestDDT" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

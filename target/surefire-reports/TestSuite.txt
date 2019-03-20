@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 140.845 sec <<< FAILURE! - in TestSuite
+loginDDT02(com.ebs.ess.testCases.TC_LoginTestDDT)  Time elapsed: 6.848 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.ebs.ess.testCases.TC_LoginTestDDT.loginDDT02(TC_LoginTestDDT.java:121)
+
+loginDDT02(com.ebs.ess.testCases.TC_LoginTestDDT)  Time elapsed: 3.113 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.ebs.ess.testCases.TC_LoginTestDDT.loginDDT02(TC_LoginTestDDT.java:43)
+

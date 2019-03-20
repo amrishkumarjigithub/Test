@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NSWH_TEST002_EBS]">
+  <listeners>
+    <listener class-name="com.ebs.ess.utilities.ReportingExtent"/>
+  </listeners>
+  <test thread-count="5" name="Test 002 EBS ESS DDT(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ebs.ess.testCases.TC_LoginTestDDT">
+        <methods>
+          <include name="loginDDT02" invocation-numbers="1 2"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ebs.ess.testCases.TC_LoginTestDDT -->
+    </classes>
+  </test> <!-- Test 002 EBS ESS DDT(failed) -->
+</suite> <!-- Failed suite [NSWH_TEST002_EBS] -->
