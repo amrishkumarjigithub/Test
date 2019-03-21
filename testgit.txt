@@ -1,4 +1,0 @@
-Test to git push 1
-Added line in GitHub 1
-Test to git pull 2
-Test to git push 2
